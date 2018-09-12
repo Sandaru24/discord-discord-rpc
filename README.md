@@ -18,20 +18,20 @@ Discord Discord RPC is a RPC client that show the channel, user or group you're 
 
 `*` = anywhere in the config
 
-`appid` The application ID. `string`
-`interval` Delay in seconds it will update. If you're experiencing lag, you might want to bump this up. `number`
-`...discord.details` What it will display in the RP when chatting in a group, channel or to a user. `array.string`
-`...sleep.details` Some text it will display in the RP when sleeping. `string`
-`...sleep.state` Additional text when sleeping. `string`
-`*.largeImageKey` Name of the large image you want. `string`
-`*.largeImageText` Text you want to show when hovering over the large image `string`
-`*.smallImageKey` Name of the small image you want. `string`
-`*.smallImageText` Text you want to show when hovering over the small image. `string`
-`*.startTimestamp` Display time since the RPC updated. `true/false`
-`*.endTimestamp` Display time until the current task (ex. sleeping) is done. `true/false`
-`*.joinButton` Display a "Ask to Join"-button that's greyed out (since it's not a game). `true/false`
-`*.spectateButton` Same as above, just as a "Spectate"-button. `true/false`
-`sleepTime` When you go to sleep. (See #Sleep Times)
+- `appid` The application ID. `string`
+- `interval` Delay in seconds it will update. If you're experiencing lag, you might want to bump this up. `number`
+- `...discord.details` What it will display in the RP when chatting in a group, channel or to a user. `array.string`
+- `...sleep.details` Some text it will display in the RP when sleeping. `string`
+- `...sleep.state` Additional text when sleeping. `string`
+- `*.largeImageKey` Name of the large image you want. `string`
+- `*.largeImageText` Text you want to show when hovering over the large image `string`
+- `*.smallImageKey` Name of the small image you want. `string`
+- `*.smallImageText` Text you want to show when hovering over the small image. `string`
+- `*.startTimestamp` Display time since the RPC updated. `true/false`
+- `*.endTimestamp` Display time until the current task (ex. sleeping) is done. `true/false`
+- `*.joinButton` Display a "Ask to Join"-button that's greyed out (since it's not a game). `true/false`
+- `*.spectateButton` Same as above, just as a "Spectate"-button. `true/false`
+- `sleepTime` When you go to sleep. (See #Sleep Times)
 
 ## Sleep Times
 
@@ -51,4 +51,4 @@ Each array is it's own day, first is Monday, last is Sunday etc etc. My schedule
 
 I go to bed at 22pm if there's work tomorrow, and wake up 7am. If it's not work tomorrow, I go to bed at 23pm and wake up the next day 10am.
 
-It's very weird set up right now, this is an old RPC I've been using for days after it came out. If anyone wants to fix it, please PR.
+It's very weird set up right now, this is an old RPC I've been using for months now. If you want to fix it, please PR.
