@@ -1,3 +1,5 @@
+[![Discord Support Server](https://discordapp.com/api/guilds/449576301997588490/embed.png)](https://discord.gg/pfQz5Pq) ![David](https://david-dm.org/Gleeny/Discord-Discord-RPC.svg)
+
 # Discord-Discord-RPC
 
 Discord Discord RPC is a RPC client that show the channel, user or group you're talking to. You don't want people to think you have secrets, do you?
